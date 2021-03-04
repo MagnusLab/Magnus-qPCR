@@ -1,0 +1,28 @@
+MOUSER (Head PCB, PCBWay)
+OPT3002DNPR
+XPEBBL-L1-0000-00302
+XPCAMB-L1-R250-00501
+
+LCSC (Main PCB, JLCPCB)
+TMP117AIDRVR
+PAM2804AAB010
+TMC2208-LA-T
+IRLR8726TRPBF
+PMEG3050EP
+ESP32-WROOM-32
+CP2102-GMR
+NCP1117ST33T3G
+DM3BT-DSF-PEJS
+U262-241N-4BV64
+473460001
+
+Optical components factory:
+Filtro passa-banda para o Sybr Green/FAM (520nm)
+Motor de passo Nema 14
+Beam splitter
+Lente para LED 3535 D13 H7.8
+Right angle prism
+Lente plano convexa D15 F20 H3.8
+Lente plano convexa D8 F11 H3.2
+Filtro passa-banda para o Sybr Green/FAM (520nm)
+Filtro passa-banda para o HEX (555nm)
