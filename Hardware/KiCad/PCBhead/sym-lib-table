@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OPT3002DNPT)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/OPT3002DNPT.pretty/OPT3002DNPT.lib")(options "")(descr ""))
+  (lib (name PAM2804AAB010)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/PAM2804.pretty/PAM2804AAB010.lib")(options "")(descr ""))
+)

@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 60208E23
+P 3300 4050
+F 0 "D1" H 3293 4267 50  0000 C CNN
+F 1 "LED" H 3293 4176 50  0000 C CNN
+F 2 "LED:LED" H 3300 4050 50  0001 C CNN
+F 3 "~" H 3300 4050 50  0001 C CNN
+	1    3300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 602094A5
+P 4050 4100
+F 0 "D2" H 4043 4317 50  0000 C CNN
+F 1 "LED" H 4043 4226 50  0000 C CNN
+F 2 "LED:LED" H 4050 4100 50  0001 C CNN
+F 3 "~" H 4050 4100 50  0001 C CNN
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 60209395
+P 3350 4500
+F 0 "J1" V 3196 4548 50  0000 L CNN
+F 1 "LEDazul" V 3287 4548 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 3350 4500 50  0001 C CNN
+F 3 "~" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 60209B44
+P 4100 4500
+F 0 "J2" V 3946 4548 50  0000 L CNN
+F 1 "LEDambar" V 4037 4548 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 4100 4500 50  0001 C CNN
+F 3 "~" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 4050 3150 4300
+Wire Wire Line
+	3150 4300 3250 4300
+Wire Wire Line
+	3450 4050 3450 4300
+Wire Wire Line
+	3450 4300 3350 4300
+Wire Wire Line
+	3900 4100 3900 4300
+Wire Wire Line
+	3900 4300 4000 4300
+Wire Wire Line
+	4200 4100 4200 4300
+Wire Wire Line
+	4200 4300 4100 4300
+$Comp
+L OPT3002DNPT:OPT3002DNPT IC2
+U 1 1 602119A4
+P 4150 2300
+F 0 "IC2" H 4750 2565 50  0000 C CNN
+F 1 "OPT3002DNPT" H 4750 2474 50  0000 C CNN
+F 2 "OPT3002DNPT:SON65P200X200X65-7N-D" H 5200 2400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/OPT3002" H 5200 2300 50  0001 L CNN
+F 4 "Light-to-digital sensor" H 5200 2200 50  0001 L CNN "Description"
+F 5 "0.65" H 5200 2100 50  0001 L CNN "Height"
+F 6 "595-OPT3002DNPT" H 5200 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT3002DNPT/?qs=zEmsApcVOkU5JfY94IcyUw%3D%3D" H 5200 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 5200 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "OPT3002DNPT" H 5200 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0105
+U 1 1 60211ADA
+P 4750 3000
+F 0 "#PWR0105" H 4750 2750 50  0001 C CNN
+F 1 "GNDREF" H 4755 2827 50  0000 C CNN
+F 2 "" H 4750 3000 50  0001 C CNN
+F 3 "" H 4750 3000 50  0001 C CNN
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0106
+U 1 1 60211AE4
+P 4150 2500
+F 0 "#PWR0106" H 4150 2250 50  0001 C CNN
+F 1 "GNDREF" V 4155 2372 50  0000 R CNN
+F 2 "" H 4150 2500 50  0001 C CNN
+F 3 "" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0107
+U 1 1 60211AEE
+P 4150 2400
+F 0 "#PWR0107" H 4150 2150 50  0001 C CNN
+F 1 "GNDREF" V 4155 2272 50  0000 R CNN
+F 2 "" H 4150 2400 50  0001 C CNN
+F 3 "" H 4150 2400 50  0001 C CNN
+	1    4150 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 60211AF8
+P 5450 2500
+F 0 "R4" V 5245 2500 50  0000 C CNN
+F 1 "10k" V 5336 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5450 2500 50  0001 C CNN
+F 3 "~" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 2400 5450 2400
+$Comp
+L Device:R_Small_US R6
+U 1 1 60211B03
+P 5700 2300
+F 0 "R6" V 5495 2300 50  0000 C CNN
+F 1 "10k" V 5586 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5700 2300 50  0001 C CNN
+F 3 "~" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 60211B0D
+P 5550 2400
+F 0 "R5" V 5345 2400 50  0000 C CNN
+F 1 "10k" V 5436 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5550 2400 50  0001 C CNN
+F 3 "~" H 5550 2400 50  0001 C CNN
+	1    5550 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2300 5350 2300
+Wire Wire Line
+	5800 2300 5800 2100
+Wire Wire Line
+	5800 2100 5650 2100
+Wire Wire Line
+	5650 2400 5650 2100
+Connection ~ 5650 2100
+Wire Wire Line
+	5650 2100 5550 2100
+Wire Wire Line
+	5550 2500 5550 2100
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 4150 2100
+$Comp
+L Device:C_Small C2
+U 1 1 60211B20
+P 4050 2150
+F 0 "C2" V 3821 2150 50  0000 C CNN
+F 1 "C_Small" V 3912 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4050 2150 50  0001 C CNN
+F 3 "~" H 4050 2150 50  0001 C CNN
+	1    4050 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0108
+U 1 1 60211B2A
+P 3950 2150
+F 0 "#PWR0108" H 3950 1900 50  0001 C CNN
+F 1 "GNDREF" V 3955 2022 50  0000 R CNN
+F 2 "" H 3950 2150 50  0001 C CNN
+F 3 "" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2100 4150 2150
+Connection ~ 4150 2150
+Wire Wire Line
+	4150 2150 4150 2300
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 60211B37
+P 3950 2300
+F 0 "J4" H 3842 2075 50  0000 C CNN
+F 1 "Vin" H 3842 2166 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 3950 2300 50  0001 C CNN
+F 3 "~" H 3950 2300 50  0001 C CNN
+	1    3950 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 4150 2300
+$EndSCHEMATC

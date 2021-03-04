@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name CP2102)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/CP2102.pretty/CP2102.lib")(options "")(descr ""))
+  (lib (name 47346-0001)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/47346.pretty/47346-0001.lib")(options "")(descr ""))
+  (lib (name NCP1117ST33T3G)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/NCP1117.pretty/NCP1117ST33T3G.lib")(options "")(descr ""))
+  (lib (name ESP32-WROOM-32_M103QH3200PH3Q0)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/ESP32.pretty/ESP32-WROOM-32_M103QH3200PH3Q0.lib")(options "")(descr ""))
+  (lib (name PAM2804AAB010)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/PAM2804.pretty/PAM2804AAB010.lib")(options "")(descr ""))
+  (lib (name TMC2208-LA-T)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/TMC2208.pretty/TMC2208-LA-T.lib")(options "")(descr ""))
+  (lib (name IRLML6244TRPBF)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/IRLML6244TRPBF.pretty/IRLML6244TRPBF.lib")(options "")(descr ""))
+  (lib (name DM3D-SF)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/DM3D-SF.pretty/DM3D-SF.lib")(options "")(descr ""))
+  (lib (name qPCR)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/qPCR.pretty/qPCR.lib")(options "")(descr ""))
+  (lib (name TMP117AIDRVT)(type Legacy)(uri "/home/isabella/Documents/qPCR/Hardware qPCR/Bibliotecas/TMP117.pretty/TMP117AIDRVT.lib")(options "")(descr ""))
+)
