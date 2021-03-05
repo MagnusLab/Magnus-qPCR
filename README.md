@@ -22,5 +22,5 @@ The machine can be roughly separated into 3 parts:
 
 <img src="Media/opticalBench.svg" width="350">
 <img src="Media/PCB2.png" width="750">
-<img src="Media/Cabeca1.png" width="750">
-<img src="Media/Cabeca2.png" width="750">
+<img src="Media/Head1.png" width="750">
+<img src="Media/Head2.png" width="750">
