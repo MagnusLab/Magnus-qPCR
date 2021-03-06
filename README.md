@@ -1,5 +1,8 @@
-# Magnus-qPCR
+
+# <img src="Media/logo.svg" width="750">
 An open, portable and low cost qPCR machine.
+
+## WE ARE ACCEPTING [DONATIONS](https://www.vakinha.com.br/vaquinha/nos-ajude-a-desenvolver-uma-maquina-de-qpcr-a-baixo-custo)!: 
 
 ## Specifications*:
 * 8 samples
