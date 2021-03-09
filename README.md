@@ -6,9 +6,9 @@ An open, portable and low cost qPCR machine.
 
 ## Specifications*:
 * 8 samples
-* 2 channels (FAM/Sybr Green + HEX)
+* 1 to 4 channels (FAM/Sybr Green, HEX, ROX/Cal Red 610, Cy5), you can customize it!
 * MicroSD card slot for data logging
-* Capable of High Resolution Melting Analysis for SNP detection
+* High Resolution Melting Analysis
 * WiFi interface, so you can control and visualize data from a smartphone/PC
 * Portable (less than 150 mm in size)
 * USB powered (5V 3A power supply)
