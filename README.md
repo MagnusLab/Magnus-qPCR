@@ -6,7 +6,11 @@ An open, portable and low cost qPCR machine.
 
 ## Specifications*:
 * 8 samples
-* 1 to 4 channels (FAM/Sybr Green, HEX, ROX/Cal Red 610, Cy5), you can customize it!
+* 1 to 4 channels, you can customize it!
+  * FAM/Sybr Green
+  * HEX
+  * ROX/Cal Red 610
+  * Cy5
 * MicroSD card slot for data logging
 * High Resolution Melting Analysis
 * WiFi interface, so you can control and visualize data from a smartphone/PC
