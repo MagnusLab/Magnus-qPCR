@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name OPT3002DNPR)(type Legacy)(uri /home/tanaami/Downloads/OPT3002DNPR/KiCad/OPT3002DNPR.lib)(options "")(descr ""))
+  (lib (name Si7051-A20-IM)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/Si7051/Si7051-A20-IM/KiCad/Si7051-A20-IM.lib)(options "")(descr ""))
+  (lib (name TMP117AIYBGR)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/TMP117AIYBGR/KiCad/TMP117AIYBGR.lib)(options "")(descr ""))
+  (lib (name Si7051_Heater)(type Legacy)(uri ${KIPRJMOD}/Si7051_Heater.lib)(options "")(descr ""))
+  (lib (name TMP117AIDRVT)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/TMP117AIDRVT/KiCad/TMP117AIDRVT.lib)(options "")(descr ""))
+  (lib (name qPCR)(type Legacy)(uri ${KIPRJMOD}/qPCR.pretty/qPCR.lib)(options "")(descr ""))
+  (lib (name kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/kicad-rescue.lib)(options "")(descr ""))
+)

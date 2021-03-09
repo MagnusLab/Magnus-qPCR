@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name Si7051-A20-IM)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/Si7051/Si7051-A20-IM/KiCad/Si7051-A20-IM.mod)(options "")(descr ""))
+  (lib (name TMP117AIYBGR)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/TMP117AIYBGR/KiCad/TMP117AIYBGR.mod)(options "")(descr ""))
+  (lib (name kicad)(type KiCad)(uri ${KIPRJMOD}/kicad.pretty)(options "")(descr ""))
+  (lib (name TMP117AIDRVT)(type Legacy)(uri /home/tanaami/Documents/Projetos/qPCR/Hardware/Libraries/TMP117AIDRVT/KiCad/TMP117AIDRVT.mod)(options "")(descr ""))
+  (lib (name qPCR)(type KiCad)(uri ${KIPRJMOD}/qPCR.pretty)(options "")(descr ""))
+  (lib (name Svg2Shenzen)(type KiCad)(uri ${KIPRJMOD}/Svg2Shenzen)(options "")(descr ""))
+)
